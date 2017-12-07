@@ -38,7 +38,7 @@ else:
     print output6
 
 
-postreqdata = json.loads(open(os.environ['req']).read())
+
 response = open(os.environ['res'], 'w')
 response.write('#env#'+env1+'#iip#'+str(iip)+'#iip2#'+str(output7)+'#eip#'+str(eip)+'#address#'+output5+'#file#'+output6)
 response.close()
